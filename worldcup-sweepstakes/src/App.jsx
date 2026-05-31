@@ -13,14 +13,6 @@ const TEAMS_2026 = [
   { name: "Germany",     flag: "🇩🇪", group: "Europe",        fifaRank: 10 },
   { name: "Croatia",     flag: "🇭🇷", group: "Europe",        fifaRank: 11 },
   { name: "Colombia",    flag: "🇨🇴", group: "South America", fifaRank: 13 },
-  { name: "Senegal",     flag: "🇸🇳", group: "Africa",        fifaRank: 14 },
-  { name: "Mexico",      flag: "🇲🇽", group: "CONCACAF",      fifaRank: 15 },
-  { name: "USA",         flag: "🇺🇸", group: "CONCACAF",      fifaRank: 16 },
-  { name: "Uruguay",     flag: "🇺🇾", group: "South America", fifaRank: 17 },
-  { name: "Japan",       flag: "🇯🇵", group: "Asia",          fifaRank: 18 },
-  { name: "Switzerland", flag: "🇨🇭", group: "Europe",        fifaRank: 19 },
-  { name: "Iran",        flag: "🇮🇷", group: "Asia",          fifaRank: 21 },
-  { name: "Turkey",      flag: "🇹🇷", group: "Europe",        fifaRank: 22 },
 ];
 
 const CURRENCY = "£";
@@ -349,7 +341,7 @@ export default function App() {
 
             <div style={{ marginTop: 24, padding: "14px 16px", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(240,234,214,0.08)", borderRadius: 12, fontFamily: "sans-serif", fontSize: 12, color: "rgba(240,234,214,0.4)", display: "flex", alignItems: "center", gap: 6 }}>
               <Icon name="info" size={15} style={{ color: "rgba(240,234,214,0.3)", flexShrink: 0 }} />
-              {CURRENCY}{BASE_PRICE} per team · Top 20 FIFA ranked nations
+              {CURRENCY}{BASE_PRICE} per team · Top 12 FIFA ranked nations
             </div>
           </div>
         )}
